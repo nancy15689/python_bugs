@@ -16,6 +16,8 @@ def blastoff(n):
 
 def palindrome(s):
   ''' Returns whether String s is a palindrome. '''
+  if len(s) == 0:
+    return True
   if len(s) == 1:
     return True
   else:
